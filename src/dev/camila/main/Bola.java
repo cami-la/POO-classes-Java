@@ -3,8 +3,10 @@ package dev.camila.main;
 /*
 Classe Bola: Crie uma classe que modele uma bola.
 Atributos: Cor, circunferência, material.
-Métodos: trocaCor e mostraCor.*/
+Métodos: trocaCor e mostraCor.
+*/
 public class Bola {
+
     //atributos
     private String cor;
     private double circunferencia;
@@ -40,5 +42,14 @@ public class Bola {
 
     public void setMaterial(String material) {
         this.material = material;
+    }
+
+    //método troca cor
+    public void trocaCor(String cor) {
+        this.cor = cor;
+    }
+
+    public String mostraCor() {
+        return this.cor;
     }
 }
