@@ -1,7 +1,7 @@
-<h1>ExerciciosClasses - <a href="https://wiki.python.org.br/ExerciciosClasses">Python Brasil</a></h1>
+<h1>ExerciciosClasses </h1>
 
 <p align="center">▶️ PLAYLIST COM OS EXERCÍCIOS RESOLVIDOS POO CLASSES - JAVA  ▶️</p>
-<p align="center">⚠️<em> Os exercícios foram adaptados! </a>️</em>⚠️</p>
+<p align="center">⚠️<em> Alguns dos exercícios foram adaptados do <a href="https://wiki.python.org.br/ExerciciosClasses">site Python Brasil! </a></em>⚠️</p>
 
 <h2>
 🛑 Pré-requistos
@@ -16,25 +16,30 @@
 
 <ol>
   <li>
-<h3><strong>Classe Bola:</strong><br></h3> Crie uma classe que modele uma bola:
-<em>Atributos:</em> Cor, circunferência, material.<br>
-<em>Métodos:</em> trocaCor e mostraCor.
-  </li>
-  <li>
-<h3><strong>Classe Quadrado:</strong><br></h3> Crie uma classe que modele um quadrado:<br>
-<em>Atributos:</em> Tamanho do lado.<br>
-<em>Métodos:</em> Mudar valor do Lado, Retornar valor do Lado e calcular Área.
-  </li>
-  <li>
 <h3><strong>Classe Retangulo:</strong><br></h3> Crie uma classe que modele um retangulo:<br>
 <em>Atributos:</em> LadoA, LadoB (ou Comprimento e Largura, ou Base e Altura, a escolher).<br>
 <em>Métodos:</em> Mudar valor dos lados, Retornar valor dos lados, calcular Área e calcular Perímetro.
   </li>
   <li>
+<h3><strong>Classe Quadrado:</strong><br></h3> Crie uma classe que modele um quadrado:<br>
+<em>Atributos:</em> Tamanho do lado.<br>
+<em>Métodos:</em> Mudar valor do Lado, retornar valor do lado e calcular área.
+  </li>
+  <li>
 <h3><strong>Classe Aluno:</strong><br></h3> Crie uma classe que modele um aluno de academia:<br>
-<em>Atributos:</em> Nome, idade, peso e altura.<br>
-<em>Métodos:</em>Envelhecer, engordar, emagrecer, crescer.<br>
-Por padrão, a cada ano que nossa pessoa envelhece, sendo a idade dela menor que 21 anos, ela deve crescer 0,5 cm.
+<em>Atributos:</em> Nome, data de nascimento, peso e altura.<br>
+<em>Métodos:</em> Calcula idade.<br>
+  </li>
+<li>
+<h3><strong>Classe Avaliação Física:</strong><br></h3> Crie uma classe que modele uma avaliação física  de academia:<br>
+<em>Atributos:</em> Matricula do aluno, nome do avaliador, data da avaliação física, peso atual, altura atual e status da avaliação.<br>
+<em>Métodos:</em> Atualiza peso do aluno, atualiza altura do aluno, status da avaliação e incluir a avaliação a matricula do aluno.<br>
+<p>TODO: inclua o método que retorna o IMC do aluno.</p>
+  </li>
+  <li>
+<h3><strong>Classe Matricula:</strong><br></h3> Crie uma classe que modele uma matrícula de um aluno de academia:<br>
+<em>Atributos:</em> Id matricula, data da matrícula, aluno e avaliações físicas.<br>
+<em>Métodos:</em> Informações do aluno, informações da última avaliação e informações de uma avaliação qualquer.<br>
   </li>
   <li>
 <h3><strong>Classe Conta Corrente:</strong><br></h3> Crie uma classe que modele uma conta corrente.<br>
@@ -48,12 +53,6 @@ O usuário deve ser capaz de informar o número do canal e aumentar ou diminuir 
 Certifique-se de que o número do canal e o nível do volume permanecem dentro de faixas válidas.  
   </li>
   <li>
-<h3><strong>Classe Tamagotchi:</strong><br></h3> Crie uma classe que modele um bichinho virtual.<br>
-<em>Atributos:</em> Nome, fome, saúde e idade.<br>
-<em>Métodos:</em> Alterar nome, fome, saúde e idade; retornar nome, fome, saúde e idade.<br>
-<strong>Obs:</strong> Existem mais de uma informação que devemos considerar: O humor do nosso Tamagotchi. Este humor é uma combinação entre os atributos fome e saúde, ou seja, um campo calculado. Não devemos criar um atributo para armazenar esta informação já que pode ser calculada a qualquer momento.  
-  </li>
-  <li>
 <h3><strong>Classe Macaco:</strong><br></h3> Crie uma classe que modele um macaco.<br>
 <em>Atributos:</em> Nome e bucho (estômago).<br>
 <em>Métodos:</em> Comer, verBucho e digerir.<br>
@@ -61,18 +60,6 @@ Faça um programa e teste interativamente:<br>
 - Crie 2 macacos.<br>
 - Alimente-os com 3 alimentos diferentes e verificando o conteúdo do estômago a cada refeição.<br>
 Experimente fazer com que um macaco coma o outro. É possível criar um macaco canibal?  
-  </li>
-  <li>
-<h3><strong>Classe Ponto e retângulo:</strong><br></h3> Faça um programa completo utilizando funções e classes que:<br>
-- Possua uma classe Ponto, com os atributos x e y.<br>
-- Possua uma classe Retângulo, com os atributos largura e altura.<br>
-- Possua uma função para imprimir os valores da classe Ponto.<br>
-- Possua uma função para encontrar o centro de um Retângulo.<br>
-- Você deve criar alguns objetos da classe Retângulo.<br>
-- Cada objeto deve ter um vértice de partida, por exemplo, o vértice inferior esquerdo do retângulo, que deve ser um objeto da classe Ponto.<br>
-- A função para encontrar o centro do retângulo deve retomar o valor para um objeto do tipo ponto que indique os valores de x e y para o centro do objeto.<br>
-- O valor do centro do objeto deve ser mostrado na tela.<br>
-- Crie um menu para alterar os valores do retângulo e imprimir o centro deste retângulo.<br>  
   </li>
   <li>
 <h3><strong>Classe Bomba de Combustível:</strong><br></h3> Crie uma classe que modele uma bomba de combustível.<br>
@@ -83,16 +70,6 @@ Atributos: tipo de combustível, valor do litro, quantidade do combustível.<br>
 - Alterar o valor do litro do combustível: altera o valor do litro do combustível.<br>
 - Alterar quantidade de combustível: altera a quantidade de combustível restante na bomba.<br>
 Sempre que acontecer um abastecimento é necessário atualizar a quantidade de combustível total na bomba. A bomba inicia com 100 L de combustível.<br>  
-  </li>
-  <li>
-<h3><strong>Classe carro:</strong><br></h3> Crie uma classe que modele um carro.<br>
-Um veículo tem um certo consumo de combustível (medidos em km/l) e uma certa quantidade de combustível no tanque.<br>
-O consumo é especificado no construtor e o nível de combustível inicial é 0.<br>
-<em>Métodos:</em> Andar, obter gasolina e adicionar gasolina:<br>
-- meuFusca = Carro(15);           # 15 quilômetros por litro de combustível.<br> 
-- meuFusca.adicionarGasolina(20); # abastece com 20 litros de combustível.<br> 
-- meuFusca.andar(100);            # anda 100 quilômetros.<br>
-- meuFusca.obterGasolina();        # Imprime o combustível que resta no tanque.<br>  
   </li>
   <li>
 <h3><strong>Classe Conta de Investimento:</strong><br></h3> Faça uma classe contaInvestimento que seja semelhante a classe ContaBancaria, com a diferença de que se adicione um atributo taxaJuros.<br>
@@ -110,20 +87,6 @@ Um empregado tem um nome (String) e um salário (Double).<br>
 Exemplo de uso:<br>
 harry=funcionário("Harry",25000)<br>
 harry.aumentarSalario(10)<br>  
-  </li>
-  <li>
-<h3><strong>Classe Tamagotchi ++:</strong><br></h3> Melhore o programa do bichinho virtual.
-Permitindo que o usuário especifique quanto de comida ele fornece ao bichinho e por quanto tempo ele brinca com o bichinho.<br>
-- Faça com que estes valores afetem quão rapidamente os níveis de fome e tédio caem.<br>
-- Crie uma "porta escondida" que mostre os valores exatos dos atributos do objeto. Consiga isto mostrando o objeto quando uma opção secreta, não listada no menu, for informada na escolha do usuário.<br>
-Dica: acrescente um método especial str() à classe Bichinho.<br>  
-  </li>
-  <li>
-<h3><strong>Programa Fazenda de Tamagotchi:</strong><br></h3>
-- Crie uma Fazenda de Bichinhos instanciando vários objetos Tamagotchi e mantendo o controle deles através de uma lista.<br> 
-- Imite o funcionamento do programa básico, mas ao invés de exigir que o usuário tome conta de um único bichinho, exija que ele tome conta da fazenda inteira.<br> 
-- Cada opção do menu deveria permitir que o usuário executasse uma ação para todos os bichinhos (alimentar todos os bichinhos, brincar com todos os bichinhos, ou ouvir a todos os bichinhos).<br> 
-- Para tornar o programa mais interessante, dê para cada bichinho um nível inicial aleatório de fome e tédio.<br>  
   </li>
 </ol>
 
